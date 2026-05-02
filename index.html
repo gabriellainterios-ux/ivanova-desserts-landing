@@ -8,8 +8,8 @@
       name="description"
       content="Авторские торты и десерты на заказ в Домодедово и Москве: свадьбы, юбилеи, детские праздники, корпоративные подарки."
     >
-    <link rel="preload" href="assets/images/cake_5_DXXTddejlkz.jpg" as="image">
-    <link rel="stylesheet" href="styles.css?v=14">
+    <link rel="preload" href="assets/images/celebration-family.png" as="image" fetchpriority="high">
+    <link rel="stylesheet" href="styles.css?v=15">
   </head>
   <body>
     <header class="site-header" aria-label="Главная навигация">
@@ -27,6 +27,12 @@
 
     <main id="top">
       <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-media" aria-hidden="true">
+          <img class="hero-poster" src="assets/images/celebration-family.png" alt="">
+          <video class="hero-video" autoplay muted loop playsinline poster="assets/images/celebration-family.png">
+            <source src="assets/videos/celebration-loop.mp4" type="video/mp4">
+          </video>
+        </div>
         <canvas class="party-canvas" id="partyCanvas" aria-hidden="true"></canvas>
         <div class="hero-content">
           <div class="hero-kicker">
@@ -34,39 +40,25 @@
             <span>Домодедово</span>
             <span>Москва</span>
           </div>
-          <h1 id="hero-title">Торт, ради которого праздник становится кадром</h1>
+          <h1 id="hero-title">Праздник, который начинается с торта</h1>
           <p class="hero-copy">
-            Авторские торты и десерты, которые собирают гостей ближе:
-            свечи, улыбки, первое «вау» и тот самый момент, который хочется
-            снять на видео.
+            Свечи загораются, гости замирают, ребенок улыбается шире всех.
+            Мы делаем авторские торты и десерты, вокруг которых появляется
+            тот самый счастливый кадр.
           </p>
           <div class="hero-actions">
             <a class="primary-button" href="#order">Хочу такой праздник</a>
             <a class="ghost-button" href="#gallery">Смотреть работы</a>
           </div>
           <div class="hero-proof" aria-label="Ключевые форматы заказов">
-            <span>Первое «вау»</span>
-            <span>Красивые фото</span>
-            <span>Гости счастливы</span>
+            <span>Семейные праздники</span>
+            <span>Дни рождения</span>
+            <span>Свадьбы и камерные вечера</span>
           </div>
         </div>
-        <div class="hero-stage" aria-label="Портфолио праздничных тортов">
-          <figure class="stage-card stage-card-main">
-            <img src="assets/images/cake_5_DXXTddejlkz.jpg" alt="Красный праздничный торт с объемными цветами">
-            <figcaption>Юбилей, который выглядит как событие</figcaption>
-          </figure>
-          <figure class="stage-card stage-card-soft">
-            <img src="assets/images/cake_0_DXv6gYODA-O.jpg" alt="Детский торт с фигурками и розовыми цветами">
-            <figcaption>Первое «вау» ребенка</figcaption>
-          </figure>
-          <figure class="stage-card stage-card-treat">
-            <img src="assets/images/cake_2_DXpC8NFjCSj.jpg" alt="Капкейки с кремом и клубникой">
-            <figcaption>Для гостей и красивого стола</figcaption>
-          </figure>
-          <div class="stage-note">
-            <strong>WOW-сцена</strong>
-            <span>торт, свечи, фото, эмоция</span>
-          </div>
+        <div class="hero-live-note" aria-label="Эмоция заказа">
+          <span>живой момент</span>
+          <strong>свечи, улыбки, первый восторг</strong>
         </div>
         <a class="scroll-cue" href="#formats" aria-label="Перейти к форматам">
           <span></span>
@@ -109,8 +101,8 @@
         </div>
         <div class="moment-collage" aria-label="Праздничные десерты">
           <figure>
-            <img src="assets/images/cake_2_DXpC8NFjCSj.jpg" alt="Капкейки с клубникой для праздничного стола">
-            <figcaption>Гости выбирают любимый вкус</figcaption>
+            <img src="assets/images/celebration-family.png" alt="Семья радуется торту со свечами на дне рождения">
+            <figcaption>Момент, ради которого заказывают торт</figcaption>
           </figure>
           <figure>
             <img src="assets/images/cake_3_DXioA5VDOTr.jpg" alt="Подарочный торт с брендированной лентой">
@@ -282,6 +274,6 @@
       <span>Авторские торты и десерты на заказ</span>
     </footer>
 
-    <script src="script.js?v=14"></script>
+    <script src="script.js?v=15"></script>
   </body>
 </html>
