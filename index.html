@@ -9,20 +9,23 @@
       content="Авторские торты и десерты на заказ в Домодедово и Москве: свадьбы, юбилеи, детские праздники, корпоративные подарки."
     >
     <link rel="preload" href="assets/images/celebration-family.png" as="image" fetchpriority="high">
-    <link rel="stylesheet" href="styles.css?v=16">
+    <link rel="stylesheet" href="styles.css?v=17">
   </head>
   <body>
     <header class="site-header" aria-label="Главная навигация">
-      <a class="brand" href="#top" aria-label="Ivanova Desserts">
-        <span class="brand-mark">ID</span>
-        <span>Ivanova Desserts</span>
-      </a>
-      <nav class="nav-links">
-        <a href="#formats">Форматы</a>
-        <a href="#gallery">Работы</a>
-        <a href="#order">Заявка</a>
+      <nav class="nav-links nav-left">
+        <a href="#formats">Кондитерская</a>
+        <a href="#process">Процесс</a>
+        <a href="#gallery">Ателье</a>
       </nav>
-      <a class="header-cta" href="#order">Рассчитать</a>
+      <a class="brand" href="#top" aria-label="Ivanova Desserts">
+        <span class="brand-name">Ivanova</span>
+        <span class="brand-subtitle">Авторская кондитерская · Москва</span>
+      </a>
+      <nav class="nav-links nav-right">
+        <a href="#gallery">Работы</a>
+        <a href="#order">Связаться</a>
+      </nav>
     </header>
 
     <main id="top">
@@ -39,28 +42,18 @@
             <span>Домодедово</span>
             <span>Москва</span>
           </div>
-          <h1 id="hero-title">Праздник, который начинается с торта</h1>
+          <h1 id="hero-title">Десерты, которые становятся <em>воспоминанием.</em></h1>
           <p class="hero-copy">
-            Свечи загораются, гости замирают, ребенок улыбается шире всех.
-            Мы делаем авторские торты и десерты, вокруг которых появляется
-            тот самый счастливый кадр.
+            Мы создаем не просто торты — мы создаем момент, ради которого
+            собираются за одним столом.
           </p>
           <div class="hero-actions">
-            <a class="primary-button" href="#order">Хочу такой праздник</a>
-            <a class="ghost-button" href="#gallery">Смотреть работы</a>
+            <a class="primary-button" href="#order">Заказать торт</a>
+            <a class="ghost-button" href="#gallery">Посмотреть работы</a>
           </div>
-          <div class="hero-proof" aria-label="Ключевые форматы заказов">
-            <span>Семейные праздники</span>
-            <span>Дни рождения</span>
-            <span>Свадьбы и камерные вечера</span>
-          </div>
-        </div>
-        <div class="hero-live-note" aria-label="Эмоция заказа">
-          <span>живой момент</span>
-          <strong>свечи, улыбки, первый восторг</strong>
         </div>
         <a class="scroll-cue" href="#formats" aria-label="Перейти к форматам">
-          <span></span>
+          <span>прокрутить</span>
         </a>
       </section>
 
@@ -191,7 +184,7 @@
         </div>
       </section>
 
-      <section class="section process reveal" aria-labelledby="process-title">
+      <section class="section process reveal" id="process" aria-labelledby="process-title">
         <div class="section-heading">
           <p class="eyebrow">Сервис</p>
           <h2 id="process-title">Как заказ становится спокойным</h2>
@@ -273,6 +266,6 @@
       <span>Авторские торты и десерты на заказ</span>
     </footer>
 
-    <script src="script.js?v=16"></script>
+    <script src="script.js?v=17"></script>
   </body>
 </html>
